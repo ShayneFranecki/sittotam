@@ -1,0 +1,35 @@
+{
+  "name": "sittotam",
+  "version": "1.0.0",
+  "description": "Simple module to localize the strings of any JS based program using the same syntax used in the ReactLocalization and ReactNativeLocalization module, use 'npm run build' before publishing",
+  "scripts": {
+    "babel-version": "babel --version",
+    "test": "jasmine",
+    "build": "babel src --out-dir lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ShayneFranecki/sittotam.git"
+  },
+  "keywords": [
+    "localization",
+    "commodi",
+    "ipsa",
+    "javascript",
+    "sunt",
+    "nativescript"
+  ],
+  "main": "./lib/LocalizedStrings.js",
+  "types": "./lib/LocalizedStrings.d.ts",
+  "author": "EltaSwaniawski",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ShayneFranecki/sittotam.git/issues"
+  },
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.6.1",
+    "jasmine": "^3.1.0"
+  },
+  "dependencies": {}
+}
